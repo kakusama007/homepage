@@ -1753,7 +1753,13 @@ a.fg-light:hover, a.fg-light:focus {
   font-weight: 600;
   margin-bottom: 32px;
 }
-
+.title-section-invit {
+  display: block;
+  width: 850px;
+  color: #2d2f38;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
 .text-center .title-section {
   margin-left: auto;
   margin-right: auto;
@@ -1908,14 +1914,64 @@ a.fg-light:hover, a.fg-light:focus {
   font-size: 11px;
   color: #a1aab6;
 }
+.card-policy {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 20px 70px 20px;
+  width: 1260px;
+  min-height:150px;
+ height:850px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+          box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+}
+.card-invi {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 20px 70px 20px;
+  width: 1260px;
+  min-height:150px;
+ height:550px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+          box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+}
 
+.card-invi {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 20px 70px 20px;
+  width: 1260px;
+  min-height:150px;
+ height:550px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+          box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+}
+
+.card-invi {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 32px 20px 70px 20px;
+  width: 1260px;
+  min-height:150px;
+ height:550px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+          box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
+}
 .card-blog {
   position: relative;
   display: block;
   margin: 0 auto;
   padding: 32px 20px 70px 20px;
-  max-width: 260px;
-  min-height: 290px;
+  width: 1260px;
+  min-height:150px;
+ max-height:850px;
   border-radius: 6px;
   -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
           box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
