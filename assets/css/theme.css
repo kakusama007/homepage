@@ -1926,14 +1926,14 @@ a.fg-light:hover, a.fg-light:focus {
   -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
           box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
 }
-.card-invi {
+.card-invi2 {
   position: relative;
   display: block;
   margin: 0 auto;
   padding: 32px 20px 70px 20px;
   width: 1260px;
-  min-height:150px;
- height:550px;
+  height:150px;
+ height:400px;
   border-radius: 6px;
   -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
           box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
@@ -2349,7 +2349,7 @@ a.fg-light:hover, a.fg-light:focus {
   display: block;
   padding-top: 80px;
   padding-bottom: 20px;
-  background-color: #33374B;
+  background-color: #2E075A;
   color: #fff;
 }
 
