@@ -34,7 +34,7 @@
     />
 
     <link rel="stylesheet" href="../assets/css/theme.css" />
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
 
   <body>
@@ -71,14 +71,20 @@
               <li class="nav-item">
                 <a href="index.html" class="nav-link">ホーム</a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item">
                 <a href="about.html" class="nav-link">会社案内</a>
               </li>
-              <li class="nav-item">
-                <a href="services.html" class="nav-link">事業案内</a>
-              </li>
-              <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">事例紹介</a>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >事業詳細</a
+                >
+                <div class="dropdown-menu fade-up m-0">
+                  <a class="dropdown-item" href="services.html">事業案内</a>
+                  <a class="dropdown-item" href="portfolio.html">事業紹介</a>
+                </div>
               </li>
               <li class="nav-item active">
                 <a href="blog.html" class="nav-link">更新情報</a>
@@ -128,78 +134,131 @@
       <!-- .page-banner -->
     </header>
 
-  <main>
-    <div class="page-section">
-      <div class="container">
-		  
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="row">
-              
+    <main>
+      <div class="page-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="row">
+                <div class="card-blog">
+                  <div
+                    class="text-center"
+                    style=" width:80px; height:auto; float:left; 　; background:#EDEDED"
+                  >
+                    <h2 class="title-section mb-3">23</h2>
+                    <p>2022/10</p>
+                  </div>
 
-          
-				
-			  <div class="card-blog">
-				<div class="text-center" style=" width:80px; height:auto; float:left; 　; background:#EDEDED">
-          			<h2 class="title-section mb-3">23</h2>
-          			<p>2022/10		 				
-        		</div>
-		  		<div class="text-center" style=" width:300px; height:100px; float:left; display:inline">
-          		<h2 class="title-section mb-3">更新はありません</h2>
-         
-				<div style="width:200%; height:40px;
-						align-items:center;
-						text-align:left">会社の住所変更などここに記載する予定です。</div>
-        		</div>
-			</div>
-				
-			  <div class="card-blog">
-				<div class="text-center" style=" width:80px; height:auto; float:left; 　; background:#EDEDED">
-          			<h2 class="title-section mb-3">24</h2>
-          			<p>2022/10		 				
-        		</div>
-		  		<div class="text-center" style=" width:300px; height:100px; float:left; display:inline">
-          		<h2 class="title-section mb-3">更新はありません</h2>
-         
-				<div style="width:200%; height:40px;
-						align-items:center;
-						text-align:left">会社の住所変更などここに記載する予定です。</div>
-        		</div>
-			</div>
-				
-              <div class="col-12 my-5">
-                <nav aria-label="Page Navigation">
-                  <ul class="pagination justify-content-center">
-                    <li class="page-item disabled">
-                      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                    </li>
-                    <li class="page-item active" aria-current="page">
-                      <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">Next</a>
-                    </li>
-                  </ul>
-                </nav>
+                  <div
+                    class="text-center"
+                    style="
+                      width: 300px;
+                      height: 100px;
+                      float: left;
+                      display: inline;
+                    "
+                  >
+                    <h2 class="title-section mb-3">更新はありません</h2>
+
+                    <div
+                      style="
+                        width: 200%;
+                        height: 40px;
+                        align-items: center;
+                        text-align: left;
+                      "
+                    >
+                      会社の住所変更などここに記載する予定です。
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-blog">
+                  <div
+                    class="text-center"
+                    style=" width:80px; height:auto; float:left; 　; background:#EDEDED"
+                  >
+                    <h2 class="title-section mb-3">24</h2>
+                    <p>2022/10</p>
+                  </div>
+
+                  <div
+                    class="text-center"
+                    style="
+                      width: 300px;
+                      height: 100px;
+                      float: left;
+                      display: inline;
+                    "
+                  >
+                    <h2 class="title-section mb-3">更新はありません</h2>
+
+                    <div
+                      style="
+                        width: 200%;
+                        height: 40px;
+                        align-items: center;
+                        text-align: left;
+                      "
+                    >
+                      会社の住所変更などここに記載する予定です。
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 my-5">
+                  <nav aria-label="Page Navigation">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled">
+                        <a
+                          class="page-link"
+                          href="#"
+                          tabindex="-1"
+                          aria-disabled="true"
+                          >Previous</a
+                        >
+                      </li>
+                      <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#"
+                          >1 <span class="sr-only">(current)</span></a
+                        >
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
-              
             </div>
           </div>
-          
         </div>
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
-  </main>
+        <!-- .container -->
+      </div>
+      <!-- .page-section -->
+    </main>
 
+    <iframe
+      src="../assets/foot/footer.html"
+      width="100%"
+      height="455px"
+      frameborder="1/0"
+      name="iframName"
+      scrolling="no"
+    >
+    </iframe>
 
-  <iframe   src="../assets/foot/footer.html" width="100%" height="455px"   frameborder="1/0"  name="iframName"  scrolling="no">   
-</iframe>
-
- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"
+    ></script>
 
     <script src="../assets/js/jquery-3.5.1.min.js"></script>
 
@@ -216,6 +275,5 @@
     <script src="../assets/js/google-maps.js"></script>
 
     <script src="../assets/js/theme.js"></script>
-
-</body>
+  </body>
 </html>
