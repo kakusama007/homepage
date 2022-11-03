@@ -73,7 +73,7 @@
                 <a href="index.html" class="nav-link">ホーム</a>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">会社案内</a>
+                <a href="about.html" class="nav-link">会社情報</a>
               </li>
               <!-- <li class="nav-item">
                 <a href="services.html" class="nav-link">事業案内</a>
@@ -83,7 +83,7 @@
                   href="#"
                   class="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  >事業詳細</a
+                  >事業内容</a
                 >
                 <div class="dropdown-menu fade-up m-0">
                   <a class="dropdown-item" href="services.html">事業案内</a>
@@ -97,7 +97,7 @@
                 <a href="blog.html" class="nav-link">更新情報</a>
               </li>
               <li class="nav-item">
-                <a href="blog.html" class="nav-link">採用情報</a>
+                <a href="invitation.html" class="nav-link">採用情報</a>
               </li>
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">問い合わせ</a>
@@ -175,94 +175,22 @@
 
     <main>
       <!-- Our Services -->
-      <div class="page-section">
-        <div class="container">
-          <div class="text-center">
-            <!-- <div class="subhead">Our Services</div> -->
-            <h2 class="title-section">業務</h2>
-          </div>
-
-          <!--  輸出入業務 -->
-          <div class="owl-carousel team-carousel mt-5">
-            <div class="team-wrap">
-              <div class="team-profile">
-                <!-- 500*300 -->
-                <img src="../assets/img/home/Import&export.jpg" alt="" />
-              </div>
-              <div class="text-sm fg-dark">現地工場にて商品生産</div>
-              <div class="team-content">
-                <h5 style="font-weight: bold; text-align: center">
-                  輸出入業務
-                </h5>
-                <div class="text-xs fg-dark">
-                  <p>生産した商品の輸出入業務または代行業務。</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- 物流業務 -->
-            <div class="team-wrap">
-              <div class="team-profile">
-                <!-- 500*300 -->
-                <img src="../assets/img/home/logistics.jpg" alt="" />
-              </div>
-              <div class="text-sm fg-dark">物流事業部</div>
-              <div class="team-content">
-                <h5 style="font-weight: bold; text-align: center">物流業務</h5>
-                <div class="text-xs fg-dark">
-                  <p>質の高いサービスは信頼される。</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- IT事業 -->
-            <div class="team-wrap">
-              <div class="team-profile">
-                <!-- 500*300 -->
-                <img src="../assets/img/home/it.jpg" alt="" />
-              </div>
-              <div class="text-sm fg-dark">IT事業部</div>
-              <div class="team-content">
-                <h5 style="font-weight: bold; text-align: center">IT事業</h5>
-                <div class="text-xs fg-dark">
-                  <p>Webサイト構築、SEO、MEO、コンサルティングなど。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 事業詳細を確認する -->
-          <div style="text-align: center">
-            <a
-              href="services.html"
-              class="btn"
-              style="
-                color: #fff;
-                background-color: #0c4b8f;
-                border-color: #0c4b8f;
-                width: 700px;
-              "
-              >事業詳細を確認する
-              <img src="../assets/img/icons/arrow_right.svg" alt="" />
-            </a>
-          </div>
-        </div>
-        <!-- .container -->
-      </div>
 
       <!-- 会社案内Title -->　
       <div class="text-center" style="background: rgb(91 155 213)">
-        <h2 class="title-section" style="color: white">会社案内</h2>
+        <h2 class="title-section" style="color: white">会社概要</h2>
       </div>
 
-      <!-- 事業案内 -->
+      <!-- 会社情報 -->
       <div class="owl-carousel team-carousel mt-5">
         <div class="team-wrap">
-          <div class="team-profile">
-            <!-- 500*300 -->
-            <img src="../assets/img/home/Import&export.jpg" alt="" />
-          </div>
-          <h5 style="font-weight: bold; text-align: center">会社案内</h5>
+          <a href="about.html" class="nav-link">
+            <div class="team-profile">
+              <!-- 500*300 -->
+              <img src="../assets/img/home/company.jpg" alt="" />
+            </div>
+          </a>
+          <h5 style="font-weight: bold; text-align: center">会社情報</h5>
           <div class="text-xs fg-dark">
             <p>
               弊社が提供するサービスついてご紹介しています。経験豊富なスタッフがこだわりを持って取り組んでいます。
@@ -270,12 +198,14 @@
           </div>
         </div>
 
-        <!-- 会社案内 -->
+        <!-- 事業案内 -->
         <div class="team-wrap">
-          <div class="team-profile">
-            <!-- 500*300 -->
-            <img src="../assets/img/home/logistics.jpg" alt="" />
-          </div>
+          <a class="dropdown-item" href="services.html">
+            <div class="team-profile" style="height: 164">
+              <!-- 500*300 -->
+              <img src="../assets/img/home/logistics.jpg" alt="" />
+            </div>
+          </a>
           <h5 style="font-weight: bold; text-align: center">事業案内</h5>
           <div class="text-xs fg-dark">
             <p>
@@ -284,16 +214,45 @@
           </div>
         </div>
 
+        <!-- 更新情報 -->
+        <div class="team-wrap">
+          <a href="blog.html" class="nav-link">
+            <div class="team-profile">
+              <!-- 500*300 -->
+              <img src="../assets/img/home/news.jpg" alt="" /></div
+          ></a>
+          <h5 style="font-weight: bold; text-align: center">更新情報</h5>
+          <div class="text-xs fg-dark">
+            <p>弊社のニュースについて。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="owl-carousel team-carousel mt-5">
+        <!-- 採用情報 -->
+        <div class="team-wrap">
+          <a href="invitation.html" class="nav-link">
+            <div class="team-profile">
+              <!-- 500*300 -->
+              <img src="../assets/img/home/team.jpg" alt="" /></div
+          ></a>
+          <h5 style="font-weight: bold; text-align: center">採用情報</h5>
+          <div class="text-xs fg-dark">
+            <p>私たちのチームに参加しましょう！</p>
+          </div>
+        </div>
+
         <!-- 問い合わせ -->
         <div class="team-wrap">
-          <div class="team-profile">
-            <!-- 500*300 -->
-            <img src="../assets/img/home/it.jpg" alt="" />
-          </div>
+          <a href="contact.html" class="nav-link">
+            <div class="team-profile">
+              <!-- 500*300 -->
+              <img src="../assets/img/home/it.jpg" alt="" /></div
+          ></a>
           <h5 style="font-weight: bold; text-align: center">問い合わせ</h5>
           <div class="text-xs fg-dark">
             <p>
-              問い合わせ問い合わせ問い合わせ問い合わせ問い合わせ問い合わせ問い合わせ。
+              あなたのビジネスのベストパートナーとして。お気軽にお問い合わせください。
             </p>
           </div>
         </div>
